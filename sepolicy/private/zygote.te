@@ -1,0 +1,2 @@
+# Read camera identity before the child transitions to platform_app_36.
+get_prop(zygote, vendor_nothing_feature_prop)
