@@ -154,6 +154,9 @@
         <!--DOLBY END-->
     </effects>
     <postprocess>
+        <stream type="music">
+            <apply effect="dlb_music_listener"/>
+        </stream>
         <stream type="voice_call">
             <apply effect="voice_helper"/>
         </stream>
